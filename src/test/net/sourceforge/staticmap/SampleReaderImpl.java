@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SampleReaderImpl implements MapDataReader<String, String> {
-
 	@Override
 	public Map<String, String> readMapData() {
 		Map<String, String> map = new HashMap<String, String>();
