@@ -1,11 +1,11 @@
 jStaticMap
 ==========
 
-This code moved from SF's staticmap
-
 jStaticMap is singleton Map of Java implementation.
 
 Very small code, There is two kind of implementation(Template method pattern and Strategy pattern).
+
+This code moved from SF's staticmap.
 
 The Feature of jStaticMap are:
 
@@ -47,4 +47,13 @@ Finally, You can use this values.
 	
 	assertEquals("1020.11", staticMap.get("usdkrw"));
 	
+## RefreshData from datasource.
+
+cleanAndLoad() Method can reload data from data source.
+
+This method will do below jobs.
+1. Create a lock.
+2. Clear map data.
+3. Read data from data source and put data to map object.
+4. Release lock.
 
