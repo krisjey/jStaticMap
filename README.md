@@ -52,8 +52,8 @@ Finally, You can use this values.
 cleanAndLoad() Method can reload data from data source.
 
 This method will do below jobs.
-1. Create a lock.
-2. Clear map data.
-3. Read data from data source and put data to map object.
-4. Release lock.
+- Create a lock.
+- Clear map data.
+- Read data from data source and put data to map object.
+- Release lock.
 
